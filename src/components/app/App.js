@@ -3,7 +3,7 @@ import Func from '../func/Func';
 
 export default class App extends Component {
   state = {
-    title: ''
+    title: 'hello'
   };
 
   handleChange = ({ target }) => {
@@ -17,10 +17,7 @@ export default class App extends Component {
       <Fragment>
         <h1>Memoization App</h1>
         <input name="title" value={title} onChange={this.handleChange} />
-        <Func title="Hello" />
-        <Func title="Hello" />
-        <Func title="Bye" />
-        <Func title="Bye" />
+        <Func title="My Title" />
       </Fragment>
     );
   }
