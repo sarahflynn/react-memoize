@@ -17,7 +17,10 @@ export default class App extends Component {
       <Fragment>
         <h1>Memoization App</h1>
         <input name="title" value={title} onChange={this.handleChange} />
-        <Func title="My Title" />
+        <Func title="Hello" />
+        <Func title="Hello" />
+        <Func title="Bye" />
+        <Func title="Bye" />
       </Fragment>
     );
   }
